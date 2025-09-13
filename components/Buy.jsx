@@ -78,8 +78,8 @@ const Buy = () => {
                 Step 2
               </h1>
               <p className="tracking-widest text-xl md:text-3xl lg:text-3xl xl:text-4xl">
-                Have BNB in your wallet to switch to XBANANAX. If you don't have
-                any BNB, you can buy directly on metamask, transfer from another
+                Have OKB in your wallet to switch to XBANANAX. If you don't have
+                any OKB, you can buy directly on metamask, transfer from another
                 wallet, or buy on another exchange and send it to your wallet.
               </p>
             </motion.div>
@@ -102,9 +102,9 @@ const Buy = () => {
                 Step 3
               </h1>
               <p className="tracking-widest text-xl md:text-3xl lg:text-3xl xl:text-4xl">
-                Go to pancakeswap.finance in google chrome or on the browser
+                Go to <a href="https://potatoswap.finance" target="_blank" className="text-green-500">potatoswap.finance</a> in google chrome or on the browser
                 inside your Metamask app. Connect your wallet. Paste the
-                XBANANAX token address into Pancakeswap, select XBANANAX COIN,
+                XBANANAX token address into Potatoswap, select XBANANAX COIN,
                 and confirm. When Metamask prompts you for a wallet signature,
                 sign.
               </p>
@@ -144,7 +144,7 @@ const Buy = () => {
                 Step 4
               </h1>
               <p className="tracking-widest text-xl md:text-3xl lg:text-3xl xl:text-4xl">
-                Switch BNB for XBANANAX. We have 4/4 Taxes so you don't need to
+                Switch OKB for XBANANAX. We have 6/6 Taxes so you don't need to
                 worry about buying with a specific slippage, although you may
                 need to use slippage during times of market volatility.
               </p>
