@@ -20,11 +20,11 @@ const Header = () => {
             viewport={{ once: true }}
           >
             <h2 className="md:text-lg max-md:hidden tracking-wider">
-              0xc00e9A12bC899B4489d09e5AEf039E3F880Ad374
+              0xc6200E4555948C5c6395b255a64732a672f647cD
             </h2>
             <h2 className="md:text-lg md:hidden tracking-wider">0xc...374</h2>
             <CopyToClipboard
-              text="0xc00e9A12bC899B4489d09e5AEf039E3F880Ad374"
+              text="0xc6200E4555948C5c6395b255a64732a672f647cD"
               onCopy={handleCopy}
             >
               <button className="text-black">
