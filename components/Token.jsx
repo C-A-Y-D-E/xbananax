@@ -15,7 +15,7 @@ const Token = () => {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <div className="w-full container mx-auto px-6 pt-16 pb-9 max-w-[1300px] mt-[-10%] md:mt-[-15%]">
+      <div className="w-full container mx-auto px-6 pt-16 pb-9  mt-[-10%] md:mt-[-15%]">
         <motion.h1
           className="text-5xl md:text-7xl text-white text-center lg:text-8xl xl:text-9xl tracking-widest mb-10 lg:mb-20"
           initial={{ y: -50, opacity: 0 }}

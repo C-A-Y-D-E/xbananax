@@ -10,7 +10,7 @@ const Header = () => {
   };
   return (
     <section className="w-full bg-white">
-      <div className="w-full container mx-auto px-6 py-4 max-w-[1300px]">
+      <div className="w-full container mx-auto px-6 py-4 ">
         <div className="w-full flex justify-between gap-5 md:gap-8 items-center">
           <motion.div
             className="w-full flex items-center gap-2"
@@ -53,10 +53,12 @@ const Header = () => {
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <a href="/">
+            <a  href="https://x.com/xbananaxlayer"
+            target="_blank">
               <img className="w-full max-w-[50px] object-cover" src="x.png" />
             </a>
-            <a href="/">
+            <a  href="https://t.me/xbananaxlayer"
+            target="_blank">
               <img
                 className="w-full max-w-[50px] object-cover"
                 src="tele.png"

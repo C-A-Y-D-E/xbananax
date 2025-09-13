@@ -9,7 +9,7 @@ const About = () => {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <div className="w-full container mx-auto px-6 md:mt-[-5%] max-w-[1300px]">
+      <div className="w-full container mx-auto px-6 md:mt-[-5%] ">
         <div className="w-full space-y-6 lg:space-y-12 text-center text-white">
           <motion.h1
             className="text-5xl md:text-7xl lg:text-8xl xl:text-9xl tracking-widest"

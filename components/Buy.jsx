@@ -9,7 +9,7 @@ const Buy = () => {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <div className="w-full space-y-5 pt-16 max-lg:pb-10 max-w-[1600px] mx-auto">
+      <div className="w-full space-y-5 pt-16 max-lg:pb-10 ">
         <motion.h1
           className="text-5xl md:text-7xl lg:text-8xl text-white text-center xl:text-9xl tracking-widest mb-16 lg:mb-60"
           initial={{ y: -50, opacity: 0 }}

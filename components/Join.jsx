@@ -10,7 +10,7 @@ const Join = () => {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <div className="w-full container mx-auto px-6 pb-16 max-w-[1300px]">
+      <div className="w-full container mx-auto px-6 pb-16">
         <div className="space-y-5 lg:space-y-10 mb-10 lg:mb-28 text-center text-white">
           <motion.h1
             className="text-5xl md:text-7xl lg:text-8xl xl:text-9xl tracking-widest"
@@ -39,7 +39,8 @@ const Join = () => {
           viewport={{ once: true }}
         >
           <motion.a
-            href="/"
+            href="https://t.me/xbananaxlayer"
+            target="_blank"
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8 }}
@@ -54,7 +55,8 @@ const Join = () => {
             />
           </motion.a>
           <motion.a
-            href="/"
+            href="https://x.com/xbananaxlayer"
+            target="_blank"
             initial={{ x: 50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1 }}

@@ -29,9 +29,9 @@ const Hero = () => {
           >
             Go Bananas on the X Layer
           </motion.h1>
-          <div className="w-full max-w-[350px] flex justify-center items-center min-h-[40px] md:min-h-[70px] bg-white relative">
+          <a  href="https://potatoswap.finance/swap?inputCurrency=OKB&outputCurrency=0xc6200E4555948C5c6395b255a64732a672f647cD" target="_blank" className="w-full max-w-[350px] flex justify-center items-center min-h-[40px] md:min-h-[70px] bg-white relative">
             <motion.h2
-              className="tracking-widest text-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl"
+              className="tracking-widest text-cener text-2xl md:text-3xl lg:text-4xl xl:text-5xl"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
@@ -41,7 +41,7 @@ const Hero = () => {
             </motion.h2>
             <div className="w-[20px] h-[90px] absolute top-1/2 -translate-y-1/2 left-[15%] bg-black rotate-[-28deg]" />
             <div className="w-[20px] h-[90px] absolute top-1/2 -translate-y-1/2 right-[15%] bg-black rotate-[-28deg]" />
-          </div>
+          </a>
         </div>
       </div>
       <motion.img

@@ -14,7 +14,9 @@ const jaro = Jaro({
 
 export default function Home() {
   return (
-    <main className={`${jaro.variable} font-jaro overflow-hidden`}>
+    <main
+      className={`${jaro.variable} font-jaro overflow-hidden max-w-[2100px] mx-auto`}
+    >
       <Header />
       <Hero />
       <About />
