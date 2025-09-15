@@ -55,7 +55,7 @@ const Join = () => {
             />
           </motion.a>
           <motion.a
-            href="https://x.com/xbananaxlayer"
+            href="https://x.com/bananaxlayer"
             target="_blank"
             initial={{ x: 50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}

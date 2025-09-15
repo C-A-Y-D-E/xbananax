@@ -53,7 +53,7 @@ const Header = () => {
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <a  href="https://x.com/xbananaxlayer"
+            <a  href="https://x.com/bananaxlayer"
             target="_blank">
               <img className="w-full max-w-[50px] object-cover" src="x.png" />
             </a>
