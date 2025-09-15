@@ -38,9 +38,9 @@ const Buy = () => {
                 Step 1
               </h1>
               <p className="tracking-widest text-xl md:text-3xl lg:text-3xl xl:text-4xl">
-                Download metamask or your wallet of choice from the app store or
+                Download okb wallet or your wallet of choice from the app store or
                 google play store for free. Desktop users, download the google
-                chrome extension by going to metamask.io.
+                chrome extension by going to web3.okx.com.
               </p>
             </motion.div>
             <motion.img
@@ -79,7 +79,7 @@ const Buy = () => {
               </h1>
               <p className="tracking-widest text-xl md:text-3xl lg:text-3xl xl:text-4xl">
                 Have OKB in your wallet to switch to XBANANAX. If you don't have
-                any OKB, you can buy directly on metamask, transfer from another
+                any OKB, you can buy directly on okx, transfer from another
                 wallet, or buy on another exchange and send it to your wallet.
               </p>
             </motion.div>
@@ -103,9 +103,9 @@ const Buy = () => {
               </h1>
               <p className="tracking-widest text-xl md:text-3xl lg:text-3xl xl:text-4xl">
                 Go to <a href="https://potatoswap.finance" target="_blank" className="text-green-500">potatoswap.finance</a> in google chrome or on the browser
-                inside your Metamask app. Connect your wallet. Paste the
+                inside your okx app. Connect your wallet. Paste the
                 XBANANAX token address into Potatoswap, select XBANANAX COIN,
-                and confirm. When Metamask prompts you for a wallet signature,
+                and confirm. When okx prompts you for a wallet signature,
                 sign.
               </p>
             </motion.div>
